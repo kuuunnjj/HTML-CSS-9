@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* cursor: default; */
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid transparent;
+    background-color: black;
+    /* background: url(img/bg1.jpg); */
+    /* background-position: center; */
+    background-size: cover;
+   
+}
+.section1 .navbar{
+    width: 100%;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 80px;
+}
+.section1 .navbar .navlogo{
+    width: 15%;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.section1 .navbar .navlogo img{
+    width: 100%;
+    height: 100%;
+}
+.section1 .navbar .navlinks{
+    width: 65%;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section1 .navbar .navlinks a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    position: relative;
+}
+.section1 .navbar .navlinks a::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+.section1 .navbar .navlinks a:hover::after{
+    width: 100%;
+}
+.section1 .navbar .navlinks a:hover{
+    cursor: pointer;
+}
+.section1 .navbar .navlinks button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+
+}
+.section1 .navbar .navlinks button:hover{
+    cursor: pointer;
+    background-color: rgb(203, 203, 203);
+}
+
+.section1 .navtext{
+    width: 60%;
+    height: 250px;
+    border: 1px solid transparent;
+    margin-left: 20%;
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+}
+.section1 .navtext h5{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.section1 .navtext h1{
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.section2{
+    width: 100%;
+    height: 270vh;
+    border: 1px solid transparent;
+    background-color: black;
+    padding-inline: 80px;
+}
+.section2 .s2text{
+    width: 50%;
+    height: 25vh;
+    border: 1px solid transparent;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.section2 .s2text h2{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+.section2 .s2text h3{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.section2 .s2{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid transparent;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.section2 .s2 .sbox1{
+    width: 49%;
+    height: 100vh;
+    border: 1px solid transparent;
+    background: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section2 .s2 h1{
+    color: white;
+}
+.section2 .s2 p{
+    color: white;
+    margin-block: 20px;
+}
+.section2 .s2 button{
+    width: 40%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.section2 .s2 .sr{
+    width: 100%;
+    height: 190px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 68%;
+    padding-inline: 30px;
+
+}
+.section2 .s2 .sbox2{
+    width: 49%;
+    height: 100vh;
+    border: 1px solid transparent;
+    background: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section2 .s2 .sbox3{
+    width: 49%;
+    height: 100vh;
+    border: 1px solid transparent;
+    background: url(img/img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section2 .s2 .sbox4{
+    width: 49%;
+    height: 100vh;
+    border: 1px solid transparent;
+    background: url(img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section3{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid transparent;
+    background-color: black;
+    padding-inline: 80px;
+    background: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section3 h1{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 75px;
+    margin-top: 170px;
+}
+.section3 p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.44);
+    font-size: 15px;
+    /* margin-top: 150px; */
+}
+
+
+.section4{
+    width: 100%;
+    height: 120vh;
+    border: 1px solid transparent;
+    display: flex;
+    background-color: black ;
+    padding-top: 180px;
+}
+.section4 .box41{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid transparent;
+    margin-left: 80px;
+    color: white;
+    padding-block: 50px;
+    padding-right: 30px;
+}
+.section4 .box41 p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.section4 .box41 h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.section4 .box41 h6{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.section4 .box41 button{
+    width: 180px;
+    height: 45px;
+    cursor: pointer;
+}
+.section4 .box42{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid transparent;   
+    background: url(img/img6.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 80px;
+}
+
+#s3{
+    background: url(img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#s4{
+    background: url(img/img2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section5{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid transparent;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    padding-inline: 80px;
+}
+.section5 .s5 img{
+    margin-inline: 40px;
+    margin-top: 70px;
+}
+.section5 h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.section5 p{
+    font-size: 22px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+
+.section6{
+    width: 100%;
+    height: 70vh;
+    border: 1px solid transparent;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.section6 h1{
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.section6 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.section6 button{
+    width: 220px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+.section7{
+    width: 100%;
+    height: 115vh;
+    border: 1px solid transparent;
+    background-color: black;
+    padding-inline: 80px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.section7 .s71{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid transparent;
+    background-color: black;
+    display: flex;
+    margin-top: 150px;
+}
+.section7 .s71 .s77{
+    width: 50%;
+    height: 70vh;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.section7 .s71 .s77 h1{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.section7 .s71 .s77 p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-right: 70px;
+    cursor: pointer;
+}
+.section7 .s71 .s78 h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section7 .s71 .s78 p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section7 .s71 .s79 h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section7 .s71 .s79 p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.section7 .s71 .s78{
+    width: 30%;
+    height: 70vh;
+    border: 1px solid transparent;
+    color: white;
+}
+.section7 .s71 .s79{
+    width: 20%;
+    height: 70vh;
+    border: 1px solid transparent;
+    color: white;
+}
+.section7 .s72{
+    width: 100%;
+    height: 25vh;
+    border: 1px solid transparent;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.section7 .s73{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid transparent;
+    background-color: black;
+    
+    color: white;
+}
+.section7 .s73 .s82 h5{
+    text-align: center;
+}
+.section7 .s73 .s82{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.225);
+    /* margin-left: 2.5%; */
+    padding-top: 30px;
+}
+
+#email{
+    width: 550px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    border: none;
+    /* border-radius: 8px; */
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 15px;
+}
+#email:focus{
+    outline: none;
+}
+#email::placeholder{
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
